@@ -46,7 +46,7 @@ pipeline {
     }
 
     failure {
-      mail(to: 'ci-team@example.com', subject: "Failed Pipeline ${currentBuild.fullDisplayName}", body: " For details about the failure, see ${env.BUILD_URL}")
+      mail(to: 'cak.khoiron@gmail.com', subject: "Failed Pipeline ${currentBuild.fullDisplayName}", body: " For details about the failure, see ${env.BUILD_URL}")
     }
 
   }
